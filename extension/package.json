@@ -1,0 +1,19 @@
+{
+  "name": "ai-js-debugger",
+  "displayName": "AI JS Debugger",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.75.0" },
+  "activationEvents": ["onCommand:ai-js-debugger.debugFile"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ai-js-debugger.debugFile",
+        "title": "AI: Debug Current JS File"
+      }
+    ]
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
